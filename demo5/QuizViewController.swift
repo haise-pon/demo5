@@ -9,10 +9,6 @@ import UIKit
 
 class QuizViewController: UIViewController {
     
-    @IBOutlet var cicreButton1: UIButton!
-    @IBOutlet var cicreButton2: UIButton!
-    @IBOutlet var cicreButton3: UIButton!
-    
     
     var quizArray = [Any]()
     

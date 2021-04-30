@@ -48,7 +48,7 @@
                         <segue destination="vnN-8A-xkh" kind="show" identifier="toPlatinum" id="hNe-qf-up7"/>
                         <segue destination="Kvt-E1-Uga" kind="show" identifier="toGold" id="h74-cX-qsM"/>
                         <segue destination="2vV-t9-CBh" kind="show" identifier="toDiamond" id="6vj-cd-kNs"/>
-                        <segue destination="Hm7-q9-5dz" kind="show" identifier="toQuiz" id="ciJ-xc-EIj"/>
+                        <segue destination="Hm7-q9-5dz" kind="show" identifier="toQuiz" id="fXV-GE-mDv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -102,10 +102,6 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ax3-u1-zwA"/>
-                    <connections>
-                        <outlet property="circleButton4" destination="OtK-Qs-VsP" id="qRT-Et-gqk"/>
-                        <outlet property="resultLabel" destination="mev-c2-QTa" id="ClN-bC-vlD"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v4H-bz-IqP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -421,13 +417,6 @@
                     </view>
                     <navigationItem key="navigationItem" id="9KD-gX-HNy"/>
                     <connections>
-                        <outlet property="choiceButton1" destination="QRL-JS-ERX" id="uL5-IE-ptM"/>
-                        <outlet property="choiceButton2" destination="ypg-Wn-SLv" id="N1Q-6e-TXy"/>
-                        <outlet property="choiceButton3" destination="efG-po-fBe" id="zvN-nO-bWe"/>
-                        <outlet property="cicreButton1" destination="QRL-JS-ERX" id="v16-g4-35J"/>
-                        <outlet property="cicreButton2" destination="ypg-Wn-SLv" id="dLz-76-9dB"/>
-                        <outlet property="cicreButton3" destination="efG-po-fBe" id="Ebt-00-14H"/>
-                        <outlet property="quizTextView" destination="yHf-pQ-Xdd" id="KpZ-ax-8Bp"/>
                         <segue destination="hQ7-kh-fvY" kind="show" identifier="toResultView" id="TzH-cW-UuP"/>
                     </connections>
                 </viewController>
