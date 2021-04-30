@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "4E393A4F-7EF9-4EB7-84ED-7F9FAAD7E044"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0CE2D909-91FB-43AE-A3DE-605BAA915DEC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "demo5/ResultViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "ResultViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "0CE2D909-91FB-43AE-A3DE-605BAA915DEC - b0ea342ea508b96b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "demo5.ResultViewController.resultLabel.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "demo5"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazokupc/Desktop/%E6%95%99%E7%A7%91%E6%9B%B8/demo5/demo5/ResultViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "126">
+               </Location>
+               <Location
+                  uuid = "0CE2D909-91FB-43AE-A3DE-605BAA915DEC - 355385bd5e16bd57"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "demo5.ResultViewController.resultLabel.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "demo5"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazokupc/Desktop/%E6%95%99%E7%A7%91%E6%9B%B8/demo5/demo5/ResultViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "164">
+               </Location>
+               <Location
+                  uuid = "0CE2D909-91FB-43AE-A3DE-605BAA915DEC - b8ed9738c2822a77"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "demo5.ResultViewController.resultLabel.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "demo5"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazokupc/Desktop/%E6%95%99%E7%A7%91%E6%9B%B8/demo5/demo5/ResultViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "0CE2D909-91FB-43AE-A3DE-605BAA915DEC - 31bc80d2e2d4f31a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "demo5.ResultViewController.resultLabel.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "demo5"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazokupc/Desktop/%E6%95%99%E7%A7%91%E6%9B%B8/demo5/demo5/ResultViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "0CE2D909-91FB-43AE-A3DE-605BAA915DEC - 2a0a0f108c1a15f4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "demo5.ResultViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; demo5.ResultViewController"
+                  moduleName = "demo5"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazokupc/Desktop/%E6%95%99%E7%A7%91%E6%9B%B8/demo5/demo5/ResultViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "416">
+               </Location>
+               <Location
+                  uuid = "0CE2D909-91FB-43AE-A3DE-605BAA915DEC - 216c75245daa9cf1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "demo5.ResultViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;demo5.ResultViewController&gt;"
+                  moduleName = "demo5"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazokupc/Desktop/%E6%95%99%E7%A7%91%E6%9B%B8/demo5/demo5/ResultViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "321">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9EC39D6E-2ADB-452D-9FA4-19D0AC788F7E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "demo5/ResultViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "ResultViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "9EC39D6E-2ADB-452D-9FA4-19D0AC788F7E - b0ea342ea508b96b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "demo5.ResultViewController.resultLabel.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "demo5"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazokupc/Desktop/%E6%95%99%E7%A7%91%E6%9B%B8/demo5/demo5/ResultViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "126">
+               </Location>
+               <Location
+                  uuid = "9EC39D6E-2ADB-452D-9FA4-19D0AC788F7E - 355385bd5e16bd57"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "demo5.ResultViewController.resultLabel.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "demo5"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazokupc/Desktop/%E6%95%99%E7%A7%91%E6%9B%B8/demo5/demo5/ResultViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "164">
+               </Location>
+               <Location
+                  uuid = "9EC39D6E-2ADB-452D-9FA4-19D0AC788F7E - b8ed9738c2822a77"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "demo5.ResultViewController.resultLabel.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "demo5"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazokupc/Desktop/%E6%95%99%E7%A7%91%E6%9B%B8/demo5/demo5/ResultViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "9EC39D6E-2ADB-452D-9FA4-19D0AC788F7E - 31bc80d2e2d4f31a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "demo5.ResultViewController.resultLabel.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "demo5"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazokupc/Desktop/%E6%95%99%E7%A7%91%E6%9B%B8/demo5/demo5/ResultViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "9EC39D6E-2ADB-452D-9FA4-19D0AC788F7E - 2a0a0f108c1a15f4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "demo5.ResultViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; demo5.ResultViewController"
+                  moduleName = "demo5"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazokupc/Desktop/%E6%95%99%E7%A7%91%E6%9B%B8/demo5/demo5/ResultViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "416">
+               </Location>
+               <Location
+                  uuid = "9EC39D6E-2ADB-452D-9FA4-19D0AC788F7E - 216c75245daa9cf1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "demo5.ResultViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;demo5.ResultViewController&gt;"
+                  moduleName = "demo5"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazokupc/Desktop/%E6%95%99%E7%A7%91%E6%9B%B8/demo5/demo5/ResultViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "321">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

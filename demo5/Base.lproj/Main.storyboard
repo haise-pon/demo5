@@ -63,37 +63,43 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mev-c2-QTa">
-                                <rect key="frame" x="188" y="242" width="62" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cev-PT-gcL">
-                                <rect key="frame" x="184" y="680" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cev-PT-gcL">
+                                <rect key="frame" x="184" y="782" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="share" destination="hQ7-kh-fvY" eventType="touchDown" id="rbW-92-aCf"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="orh-nV-hDb">
-                                <rect key="frame" x="184" y="763" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="orh-nV-hDb">
+                                <rect key="frame" x="184" y="609" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="back" destination="hQ7-kh-fvY" eventType="touchDown" id="DKK-cD-q8A"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OtK-Qs-VsP">
-                                <rect key="frame" x="184" y="603" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OtK-Qs-VsP">
+                                <rect key="frame" x="184" y="409" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mev-c2-QTa">
+                                <rect key="frame" x="186.5" y="188" width="41.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="8YT-4i-AuM"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="mev-c2-QTa" firstAttribute="centerX" secondItem="sxC-XO-XII" secondAttribute="centerX" id="Fbw-go-BPy"/>
+                            <constraint firstItem="orh-nV-hDb" firstAttribute="top" secondItem="OtK-Qs-VsP" secondAttribute="bottom" constant="170" id="GJR-3r-alg"/>
+                            <constraint firstItem="8YT-4i-AuM" firstAttribute="bottom" secondItem="cev-PT-gcL" secondAttribute="bottom" constant="50" id="Lr7-sK-SPK"/>
+                            <constraint firstItem="cev-PT-gcL" firstAttribute="centerX" secondItem="sxC-XO-XII" secondAttribute="centerX" id="Y0C-WT-bIh"/>
+                            <constraint firstItem="mev-c2-QTa" firstAttribute="top" secondItem="8YT-4i-AuM" secondAttribute="top" constant="100" id="iJt-41-CN7"/>
+                            <constraint firstItem="OtK-Qs-VsP" firstAttribute="top" secondItem="mev-c2-QTa" secondAttribute="bottom" constant="200" id="vYd-4z-kE1"/>
+                            <constraint firstItem="orh-nV-hDb" firstAttribute="centerX" secondItem="sxC-XO-XII" secondAttribute="centerX" id="zTN-N8-34M"/>
+                            <constraint firstItem="OtK-Qs-VsP" firstAttribute="centerX" secondItem="sxC-XO-XII" secondAttribute="centerX" id="zip-id-x4x"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ax3-u1-zwA"/>
                     <connections>
@@ -371,20 +377,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QRL-JS-ERX">
-                                <rect key="frame" x="184" y="496" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QRL-JS-ERX">
+                                <rect key="frame" x="184" y="512" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="choiceAnswerWithSender:" destination="Hm7-q9-5dz" eventType="touchUpInside" id="2u1-zb-UBD"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ypg-Wn-SLv">
-                                <rect key="frame" x="184" y="620" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ypg-Wn-SLv">
+                                <rect key="frame" x="184" y="662" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="choiceAnswerWithSender:" destination="Hm7-q9-5dz" eventType="touchUpInside" id="Kd5-rg-XHp"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="efG-po-fBe">
-                                <rect key="frame" x="184" y="748" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="efG-po-fBe">
+                                <rect key="frame" x="184" y="802" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="choiceAnswerWithSender:" destination="Hm7-q9-5dz" eventType="touchUpInside" id="jJF-eo-iPB"/>
+                                </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="yHf-pQ-Xdd">
                                 <rect key="frame" x="87" y="184" width="240" height="128"/>
@@ -398,6 +410,14 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="1hY-fh-y3u"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="efG-po-fBe" firstAttribute="centerX" secondItem="DCM-1J-aai" secondAttribute="centerX" id="8bo-zL-xxa"/>
+                            <constraint firstItem="ypg-Wn-SLv" firstAttribute="centerX" secondItem="DCM-1J-aai" secondAttribute="centerX" id="J6I-X2-G8E"/>
+                            <constraint firstItem="1hY-fh-y3u" firstAttribute="bottom" secondItem="efG-po-fBe" secondAttribute="bottom" constant="30" id="KGW-We-NCA"/>
+                            <constraint firstItem="QRL-JS-ERX" firstAttribute="centerX" secondItem="DCM-1J-aai" secondAttribute="centerX" id="MvV-H9-YOB"/>
+                            <constraint firstItem="ypg-Wn-SLv" firstAttribute="top" secondItem="QRL-JS-ERX" secondAttribute="bottom" constant="120" id="jg7-Z3-V0l"/>
+                            <constraint firstItem="efG-po-fBe" firstAttribute="top" secondItem="ypg-Wn-SLv" secondAttribute="bottom" constant="110" id="jnr-kj-14p"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="9KD-gX-HNy"/>
                     <connections>
@@ -408,7 +428,7 @@
                         <outlet property="cicreButton2" destination="ypg-Wn-SLv" id="dLz-76-9dB"/>
                         <outlet property="cicreButton3" destination="efG-po-fBe" id="Ebt-00-14H"/>
                         <outlet property="quizTextView" destination="yHf-pQ-Xdd" id="KpZ-ax-8Bp"/>
-                        <segue destination="hQ7-kh-fvY" kind="show" id="TzH-cW-UuP"/>
+                        <segue destination="hQ7-kh-fvY" kind="show" identifier="toResultView" id="TzH-cW-UuP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Fr-RP-SNv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
