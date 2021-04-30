@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		326A48EC25FB6E2E005CCF1A /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326A48EA25FB6E2E005CCF1A /* TableViewCell.swift */; };
+		326A48ED25FB6E2E005CCF1A /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 326A48EB25FB6E2E005CCF1A /* TableViewCell.xib */; };
+		326A48F225FB7217005CCF1A /* 名称未設定-1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 326A48F125FB7217005CCF1A /* 名称未設定-1.gif */; };
+		32A7DAF22632831C00C0FC60 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A7DAF12632831C00C0FC60 /* QuizViewController.swift */; };
+		32A7DAFA2632879100C0FC60 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A7DAF92632879100C0FC60 /* ResultViewController.swift */; };
 		32BCD53C25E17AA3008C2FC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BCD53B25E17AA3008C2FC1 /* AppDelegate.swift */; };
 		32BCD53E25E17AA3008C2FC1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BCD53D25E17AA3008C2FC1 /* SceneDelegate.swift */; };
 		32BCD54025E17AA3008C2FC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BCD53F25E17AA3008C2FC1 /* ViewController.swift */; };
@@ -15,6 +20,13 @@
 		32BCD54825E17AA6008C2FC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32BCD54625E17AA6008C2FC1 /* LaunchScreen.storyboard */; };
 		32BCD55325E17AA7008C2FC1 /* demo5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BCD55225E17AA7008C2FC1 /* demo5Tests.swift */; };
 		32BCD55E25E17AA7008C2FC1 /* demo5UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BCD55D25E17AA7008C2FC1 /* demo5UITests.swift */; };
+		32BCD56F25E20E88008C2FC1 /* BronzeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BCD56E25E20E88008C2FC1 /* BronzeViewController.swift */; };
+		32BCD57425E20EAA008C2FC1 /* SilverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BCD57325E20EAA008C2FC1 /* SilverViewController.swift */; };
+		32BCD57925E20EC2008C2FC1 /* GoldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BCD57825E20EC2008C2FC1 /* GoldViewController.swift */; };
+		32BCD57E25E20EE9008C2FC1 /* PlatinumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BCD57D25E20EE9008C2FC1 /* PlatinumViewController.swift */; };
+		32BCD58325E20F06008C2FC1 /* DiamondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BCD58225E20F06008C2FC1 /* DiamondViewController.swift */; };
+		32BCD58825E20F4A008C2FC1 /* PredatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BCD58725E20F4A008C2FC1 /* PredatorViewController.swift */; };
+		32BCD58D25E22F99008C2FC1 /* apex.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32BCD58C25E22F99008C2FC1 /* apex.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +47,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		326A48EA25FB6E2E005CCF1A /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		326A48EB25FB6E2E005CCF1A /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		326A48F125FB7217005CCF1A /* 名称未設定-1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "名称未設定-1.gif"; sourceTree = "<group>"; };
+		32A7DAF12632831C00C0FC60 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		32A7DAF92632879100C0FC60 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		32BCD53825E17AA2008C2FC1 /* demo5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demo5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32BCD53B25E17AA3008C2FC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32BCD53D25E17AA3008C2FC1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +66,13 @@
 		32BCD55925E17AA7008C2FC1 /* demo5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demo5UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32BCD55D25E17AA7008C2FC1 /* demo5UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demo5UITests.swift; sourceTree = "<group>"; };
 		32BCD55F25E17AA7008C2FC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32BCD56E25E20E88008C2FC1 /* BronzeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BronzeViewController.swift; sourceTree = "<group>"; };
+		32BCD57325E20EAA008C2FC1 /* SilverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilverViewController.swift; sourceTree = "<group>"; };
+		32BCD57825E20EC2008C2FC1 /* GoldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldViewController.swift; sourceTree = "<group>"; };
+		32BCD57D25E20EE9008C2FC1 /* PlatinumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatinumViewController.swift; sourceTree = "<group>"; };
+		32BCD58225E20F06008C2FC1 /* DiamondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiamondViewController.swift; sourceTree = "<group>"; };
+		32BCD58725E20F4A008C2FC1 /* PredatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredatorViewController.swift; sourceTree = "<group>"; };
+		32BCD58C25E22F99008C2FC1 /* apex.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apex.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +126,19 @@
 				32BCD53B25E17AA3008C2FC1 /* AppDelegate.swift */,
 				32BCD53D25E17AA3008C2FC1 /* SceneDelegate.swift */,
 				32BCD53F25E17AA3008C2FC1 /* ViewController.swift */,
+				326A48EA25FB6E2E005CCF1A /* TableViewCell.swift */,
+				326A48EB25FB6E2E005CCF1A /* TableViewCell.xib */,
 				32BCD54125E17AA3008C2FC1 /* Main.storyboard */,
+				326A48F125FB7217005CCF1A /* 名称未設定-1.gif */,
+				32BCD58C25E22F99008C2FC1 /* apex.jpg */,
+				32BCD56E25E20E88008C2FC1 /* BronzeViewController.swift */,
+				32BCD57325E20EAA008C2FC1 /* SilverViewController.swift */,
+				32BCD57825E20EC2008C2FC1 /* GoldViewController.swift */,
+				32BCD57D25E20EE9008C2FC1 /* PlatinumViewController.swift */,
+				32BCD58225E20F06008C2FC1 /* DiamondViewController.swift */,
+				32BCD58725E20F4A008C2FC1 /* PredatorViewController.swift */,
+				32A7DAF12632831C00C0FC60 /* QuizViewController.swift */,
+				32A7DAF92632879100C0FC60 /* ResultViewController.swift */,
 				32BCD54425E17AA6008C2FC1 /* Assets.xcassets */,
 				32BCD54625E17AA6008C2FC1 /* LaunchScreen.storyboard */,
 				32BCD54925E17AA6008C2FC1 /* Info.plist */,
@@ -231,7 +267,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32BCD58D25E22F99008C2FC1 /* apex.jpg in Resources */,
+				326A48ED25FB6E2E005CCF1A /* TableViewCell.xib in Resources */,
 				32BCD54825E17AA6008C2FC1 /* LaunchScreen.storyboard in Resources */,
+				326A48F225FB7217005CCF1A /* 名称未設定-1.gif in Resources */,
 				32BCD54525E17AA6008C2FC1 /* Assets.xcassets in Resources */,
 				32BCD54325E17AA3008C2FC1 /* Main.storyboard in Resources */,
 			);
@@ -258,9 +297,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32BCD56F25E20E88008C2FC1 /* BronzeViewController.swift in Sources */,
+				32BCD58325E20F06008C2FC1 /* DiamondViewController.swift in Sources */,
+				32BCD57425E20EAA008C2FC1 /* SilverViewController.swift in Sources */,
+				32BCD58825E20F4A008C2FC1 /* PredatorViewController.swift in Sources */,
+				32BCD57925E20EC2008C2FC1 /* GoldViewController.swift in Sources */,
+				326A48EC25FB6E2E005CCF1A /* TableViewCell.swift in Sources */,
 				32BCD54025E17AA3008C2FC1 /* ViewController.swift in Sources */,
+				32A7DAF22632831C00C0FC60 /* QuizViewController.swift in Sources */,
 				32BCD53C25E17AA3008C2FC1 /* AppDelegate.swift in Sources */,
+				32BCD57E25E20EE9008C2FC1 /* PlatinumViewController.swift in Sources */,
 				32BCD53E25E17AA3008C2FC1 /* SceneDelegate.swift in Sources */,
+				32A7DAFA2632879100C0FC60 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +485,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = HQ4PLZB94N;
 				INFOPLIST_FILE = demo5/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -455,6 +505,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = HQ4PLZB94N;
 				INFOPLIST_FILE = demo5/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -473,6 +525,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HQ4PLZB94N;
 				INFOPLIST_FILE = demo5Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -494,6 +547,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HQ4PLZB94N;
 				INFOPLIST_FILE = demo5Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -514,6 +568,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HQ4PLZB94N;
 				INFOPLIST_FILE = demo5UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -533,6 +588,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HQ4PLZB94N;
 				INFOPLIST_FILE = demo5UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
